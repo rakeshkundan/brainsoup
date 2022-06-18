@@ -1,0 +1,107 @@
+body {
+    background-image:url(pexels-jess-bailey-designs-1097930.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+logo img{
+    height:100px;
+    border-radius: 10px;
+    display: inline-block;
+}
+nav1{
+    display:inline-block;
+    padding: 10px;
+    border-width: 2px;
+    position: relative;
+    bottom: 70px;
+
+}
+nav1 a{
+    color: #dc2f02;
+    text-decoration: none;
+    background-color: #ffdab9;
+    font-family: Comic Sans MS;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fb8500;
+    padding: 5px;
+    margin: 0px;
+    
+}
+nav1 a:hover{
+    color: #000000;
+    background-color: #ffc8dd;
+    border-color:beige;
+}
+nav2{
+    font-family: Comic Sans MS;
+    padding: 10px;
+    position: relative;
+    left:55%;
+    bottom: 100px;
+}
+nav2 a{
+    text-decoration: none;
+    background-color: rgba(255,175,204,0.6);
+    color: #691e06;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #dee2ff;
+    border-width: 3px;
+    padding: 3px;
+    
+}
+nav2 a:hover{
+    color: #000000;
+    background-color: #ffc8dd;
+    border-color:beige;
+}
+ul,li {
+    display: inline;
+    margin:5px;
+    padding: 2px;
+    list-style: none;
+    margin: 0px;
+}
+
+/*nav1 a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+} */
+#aside_left {
+    width:20%;
+    height: 500px;
+    background-color: #c38e70;
+    border-radius:5px;
+    display: inline-block;
+    margin-left:0;
+}
+main>aside>div>a{
+    display:inline-block;
+    text-decoration: none;
+    background-color:#691e06;
+    font-family: Comic Sans MS;
+    color: white;
+    position: relative;
+    top:3px;
+    left: 2px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0px;
+    border-radius: 10px;
+    border: solid #f6aa1c 1px;
+}
+main>aside>div{
+    background-color:darkslategray;
+    height: 7%;
+    border-radius: 5px;
+    position: relative;
+}
+#aside{
+    position:relative;
+}
+#aside_heading {
+    position: relative;
+}
